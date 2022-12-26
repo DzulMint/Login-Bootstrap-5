@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  background-color: #222d32 !important;
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #48e248;
+}
+
+.login-form {
+  width: 390px;
+  height: 480px;
+  padding: 25px;
+  background-color: #1a2226 !important;
+  border-radius: 10px !important;
+}
+
+input[type="email"],
+input[type="password"] {
+  background: #1a2226;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  color: #f0f0f0;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border: none;
+  background: #1a2226;
+  color: #fff;
+}
+
+.card-title {
+  font-weight: 500;
+  padding-top: 20px;
+  background-color: #1a2226 !important;
+  border: #1a2226;
+}
+.card-text {
+  margin: 10px;
+  margin-bottom: 50px;
+  margin-top: 100;
+  padding-top: 20px;
+}
+
+.btn {
+  background: #48e248;
+  border: #00ff00;
+  color: #000;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #00ff00;
+  color: #000;
+}
